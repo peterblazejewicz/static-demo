@@ -1,3 +1,5 @@
+/// <reference path="logger.ts" />
+
 interface Window {
     app?: ClientApp;
 }
@@ -5,10 +7,10 @@ interface Window {
 
 class ClientApp {
 
+    logger = new Logger();
+
     constructor() {
-
-
-
+        this.logger.log("Creating app instance");
     }
 
     init() {
