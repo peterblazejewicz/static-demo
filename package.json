@@ -1,0 +1,24 @@
+{
+  "name": "static-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "build:debug": "tsc -p ./tsconfig.debug.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterblazejewicz/static-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterblazejewicz/static-demo/issues"
+  },
+  "homepage": "https://github.com/peterblazejewicz/static-demo#readme",
+  "devDependencies": {
+    "typescript": "^3.1.3"
+  }
+}
