@@ -18,9 +18,3 @@ class ClientApp {
         el.textContent = "Hello world! This is static web site template.";
     }
 }
-
-window.addEventListener("load", () => {
-    const app = window.app = new ClientApp();
-    app.init();
-
-})

@@ -17,6 +17,6 @@
     // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "include": [
-    "src/client-app.ts"
+    "src/main.ts"
   ]
 }
